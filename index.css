@@ -1,0 +1,46 @@
+#container{
+      display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search{
+    position: absolute;
+    padding: 5px 5px 5px 25px;
+    border-radius: 10px;
+   width:500px;
+   height: 30px;
+   right:35%;
+   top:35%;
+   border: 2px rgb(207, 207, 207) solid;
+}
+
+.buttons{
+    position: absolute;
+    right:43%;
+    top:45%;
+
+
+}
+.Google{
+    position: relative;
+    border:none;
+    font-size:16px;
+    right:15px ;
+    
+}
+.Lucky{
+    border:none;
+    font-size:16px;
+}
+img{
+    position: absolute;
+    right:43%;
+    top:20%;
+}
+ul{
+    list-style-type:none;
+    display: grid;
+    grid-template-columns: 50px 1fr 50px 50px 50px 50px 50px;
+    grid-template-rows: 50px;
+   
+}
